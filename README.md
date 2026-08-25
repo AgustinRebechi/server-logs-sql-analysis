@@ -54,11 +54,5 @@ A diferencia de un análisis sobre datos ya curados, este dataset venía con cor
 
 - [Plan de Acción Detallado](plan_de_accion.md) — diagnóstico completo, hallazgos por sección y próximos pasos.
 
-## ⚠️ Pendiente antes de publicar
-
-Los números del dashboard de Power BI (tasa de errores 20.56%, hora pico 17:00, "usuarios únicos: 2,452 mil") no coinciden exactamente con la última corrida del notebook (16.4%, hora pico 18:00, 2,451 usuarios) y el label de usuarios únicos parece tener un bug de formato ("mil" de más). Antes de publicar el repo, re-exportá `logs_clean` a Power BI y confirmá que el dashboard refleje la corrida final — ver detalle en el plan de acción.
-
----
-
-**Autor:** Agus
+**Autor:** Agustín Rebechi
 **Licencia:** MIT

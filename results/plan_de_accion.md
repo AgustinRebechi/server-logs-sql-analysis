@@ -91,7 +91,3 @@ El **p95 se mantiene consistentemente por debajo de 500ms en los 12 endpoints**,
 | p99 de latencia (peores casos) | hasta ~32,800ms | <1,000ms |
 
 ---
-
-## Nota de reconciliación (pendiente)
-
-El dashboard de Power BI actual reporta 20.56% de error rate, hora pico 17:00 y un label de "usuarios únicos: 2,452 mil" que parece un bug de formato (separador de miles leído como sufijo). Estos números no coinciden con la corrida final del notebook (16.4%, hora pico 18:00, 2,451 usuarios). Antes de dar el dashboard por definitivo, conviene re-exportar `logs_clean` (celda de exportación del notebook) y reconstruir el dashboard sobre ese export, para que documentación y visualización cuenten la misma historia.
