@@ -4,10 +4,6 @@ Diagnóstico de calidad de datos, disponibilidad y performance de un servidor we
 
 ![Dashboard de Análisis](results/dashboard/server_logs_dashboard.png)
 
-<!-- Si subís el dashboard a Looker Studio o dejás el PDF exportado de Power BI, agregá los links acá, mismo formato que el dashboard de arriba:
-[Ver dashboard en alta calidad (PDF)](results/dashboard/server_logs_dashboard.pdf)
-[Ver dashboard en fuente original (Power BI / Looker Studio)](URL) -->
-
 ## Hallazgos clave (post-limpieza, N = 5,587 requests)
 
 | Métrica | Valor |
